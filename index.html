@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="icon" type="img/png" href="./images/logo.jpg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <h1>Rock Paper Scissors</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./images/rock.png" alt="rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.png" alt="paper">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="./images/scissors.png" alt="scissor">
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <div class="you">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="device">
+                <p id="device-score">0</p>
+                <p>Device</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play Here!</p>
+    </div>
+
+    <div class="rules">
+        <button id="rules">Rules</button>
+    </div>
+    
+<script src="logic.js"></script>    
+</body>
+</html>
